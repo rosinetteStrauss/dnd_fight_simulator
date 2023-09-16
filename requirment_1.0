@@ -1,0 +1,14 @@
+I want an application able to work even without internet connexion
+
+Goal of the application:
+	take inputs for a set of players and foes (neutral npcs is nth).
+	then run the fight between the two groups several time and output stats about chances of winning
+
+The application is to work on both linux and windows environment and check the following:
+	- Inputs : 
+		- file (between 2 and 6) containing the character stats
+		- file (at least 1) containing the foes stats
+		- file (0 or more - nth) containing the npcs stats
+	- Output : 
+		- At least a value in percentage (with 1 decimal) giving an estimation of the character's chances of success
+		- Every other piece of information is welcomed and nth
